@@ -1,2 +1,2 @@
 #!/bin/sh
-knife cookbook site share "sudo_elastic" "Other"
+knife cookbook site share "sudo_kibana" "Other"
