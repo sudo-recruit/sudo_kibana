@@ -1,4 +1,5 @@
 #sudo_kibana
+>kibana cookbook
 
 ##sudo_kibana::default
 install [kibana](https://github.com/elastic/kibana)
