@@ -8,5 +8,6 @@ description "install kibana"
 long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
 
 depends "kibana_lwrp", "~> 3.0.2"
+depends 'poise-monit', '~> 1.4.0'
 
 

@@ -2,7 +2,7 @@
 >kibana cookbook
 
 ##sudo_kibana::default
-install [kibana](https://github.com/elastic/kibana)
+install [kibana](https://github.com/elastic/kibana),and [Monit](https://mmonit.com/monit/)
 
 * `['kibana']['es_server']` - elasticsearch_server host(default:`127.0.0.1`)
 

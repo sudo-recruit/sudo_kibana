@@ -1,0 +1,8 @@
+check process kibana
+    with pidfile "/etc/sv/kibana/supervise/pid"
+    start program = "/etc/init.d/kibana start"
+    stop program = "/etc/init.d/kibana stop"
+    if 2 restarts within 3 cycles then timeout
+    if totalmem > 300 Mb then alert
+
+
