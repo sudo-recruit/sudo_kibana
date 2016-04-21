@@ -1,5 +1,5 @@
 name "sudo_kibana"
-version "0.0.1"
+version "0.0.2"
 maintainer "ocowchun"
 maintainer_email "ben.yeh@sudo.com.tw"
 license  "MIT"
