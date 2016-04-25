@@ -1,3 +1,6 @@
+##0.0.4
+* fix kibana monit
+
 ##0.0.3
 * add [New Relic](https://newrelic.com). 
 
